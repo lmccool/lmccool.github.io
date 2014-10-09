@@ -286,9 +286,10 @@ a.item-zoom-link:hover {background: #f9873c url(../img/gallery-item-icons.png) n
 a.item-details-link:hover {background: #f9873c url(../img/gallery-item-icons.png) no-repeat; background-position: -42px 0px;}
 
 .gallery-post-grid {margin:0px;}
-.gallery-post-grid li {list-style: none; float: left; margin-bottom: 20px; margin-right: 12px;}
+.gallery-post-grid li {list-style: none; float: left; margin-bottom: 5px;}
 
-	
+
+.pagination { float: right; margin-bottom: 50px;}	
 
 /**************************************
 / Sidebar
