@@ -30,6 +30,8 @@ h1.title-bg, h2.title-bg, h3.title-bg, h4.title-bg , h5.title-bg, h6.title-bg {
 
 #aboutUs { padding-top: 5%;}
 
+#requestHeader {padding-left: 3%;}
+
 h1.title-sm, h2.title-sm, h3.title-sm, h4.title-sm , h5.title-sm, h6.title-sm {
 	background:#f8f8f8; 
 	padding:2px 4px;
@@ -372,4 +374,8 @@ a.item-details-link:hover {background: #f9873c url(../img/gallery-item-icons.png
 	display:none;
 	text-indent:-9999px;
 	z-index:12; 
+}
+
+#sitemap{
+	font-size: 115%;
 }

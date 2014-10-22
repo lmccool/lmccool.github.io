@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Iconned - 404</title>
+<title>Iconned - Sitemap</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- CSS
@@ -27,6 +27,7 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery.quicksand.js"></script>
 <script src="js/jquery.custom.js"></script>
+<script src="js/validation.js"></script>
 
 
 </head>
@@ -65,17 +66,28 @@
      
     <!-- Page Content
     ================================================== --> 
-            <div class="row">
-                <div class="span12">
-                <div id="coaHeader">
-                    <h1 class="title-bg"> Oops! 404 Error!</h1> 
-                    <p>This is awkward! You're looking for something that doesn't actually exist. The page you requested isn't a page at all! It's an illusion! Please head back to our <a href="index.htm">homepage</a>. Or <a href="about.htm">contact us!</a> </p>
-                 </div>
-                </div>
-
-            </div> <!-- row end -->
+    <div class="row" id="sitemap"><!--Container row-->    
+    
+    	<div class="col-md-3">
+			<h2 class="title-bg">Sitemap</h2>
+				<ul class="subMenu">
+					<li><a href="index.htm">Home</a></li>
+					<li class="dropdownSubmenu last">
+						<a href="icons.htm" class="hasSubMenu">Icons</a>
+						<ul class="subMenu">
+							<li><a href="tvshowexample.htm" class="">- TV Show Example - Agents of Shield</a></li>
+							<li><a href="filmexample.htm" class="">- Film Example - Anastasia</a></li>
+							<li class="last"><a href="webseriesexample.htm" class="">- Web Series Example - Lizzie Bennett Diaries</a></li>
+						</ul>
+					</li>
+					<li><a href="requests.htm">Requests</a></li>
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+		</div>
+		    
+    
+    </div><!-- End container row -->
     </div> <!-- End Container -->
-
 
     <!-- Footer Area
         ================================================== -->
@@ -93,16 +105,15 @@
                         <div class="span6"><span class="left">Copyright Goes Here. All rights reserved.</span></div>
                         <div class="span6">
                             <span class="right">
-                            <a href="index.htm">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="icons.htm">Icons</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="requests.htm">Requests</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="about.htm">About Us</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="sitemap.htm">Sitemap</a></a>
-
+                             <a href="index.htm">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="icons.htm">Icons</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="requests.htm">Requests</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="about.htm">About Us</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="sitemap.htm">Sitemap</a></a>
                             </span>
                         </div>
                     </div>
                 </div>
             </div><!-- End Sub Footer -->
+
         </div>
     </div><!-- End Footer -->
-
- </div>   
+    
 </body>
 </html>
